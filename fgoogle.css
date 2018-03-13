@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: Arial;
+	font-size: 13px;
+}
+
+img#logo{
+	width: 269px;
+	height: 95px;
+}
+
+#box{
+	width:580px;
+	margin:80 auto 0;
+	text-align:center;
+}
+
+input[type="search"]{
+	width:566px;
+	padding:7px;
+	margin:25px 0 18px;
+	border:solid 1px #aaa;
+}
+
+button{
+	background:#eee;
+	color:#333;
+	border:solid 1px #ccc;
+	font-size:11px;
+	padding:5px;
+	font-family:arial;
+	font-weight:bold;
+	margin:0 5px;
+}
+p{
+	margin:10px;
+	font-size:12px;
+}
+
+a:link, a:visited{
+	color:blue;
+}
+
+nav#main ul li{
+	display:inline;
+}
+
+nav#main{
+	text-align:right;
+	padding:10px;
+}
+
+nav#main ul li a:link,
+nav#main ul li a:visited{
+	color:#555;
+	padding:10px;
+	text-decoration:none;
+}
+	
+footer{
+	background:#eee;
+	position:fixed;
+	bottom:0;
+	width:100%
+}
+
+footer nav{
+	padding:20px
+}
+
+footer nav ul li{
+display:inline;
+padding:10px;
+}
+
+footer nav ul{
+	float:left;
+	padding:10px;
+}
+
+footer nav ul.right-side{
+	float:right;
+}
+
+nav#main ul.left-side li{
+	float:left;
+}
+
+
+
+
+
+
+	
+
+
+	
+	
+
